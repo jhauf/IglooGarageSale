@@ -12,13 +12,18 @@
       <h1>Igloo Garage Sale</h1>
       <input id="Start" type="button" value="Start"/>
     </div>
-    <canvas id="myCanvas" style="display: none;" width="700" height="750"></canvas>
+    <div id="canvas-container">
+      <canvas id="myCanvas" width="700" height="750"></canvas>
+      <input id="Stop" type="button" value="End Game"/>
+    </div>
     <script>
        $("#Start").click(function () {
            $("#Splash").hide();
            $("#myCanvas").show();
+           $("#Stop").show();
        });
     </script>
+
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
 </html>

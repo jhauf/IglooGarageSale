@@ -9,12 +9,12 @@ Igloo Garage Sale is based on the classic Neopets game, Igloo Garage Sale.  It i
 
 With Igloo Garage Sale, users will be able to:
 
-- [ ] Move their character left, right to catch falling objects and up to jump. They lose if they drop 3 objects or get hit by a piano.
+- [ ] Move their character left, right to catch falling objects and up to jump. They lose if they drop 3 objects.
 
 In addition, this project will include:
 
 - [ ] An About modal describing the background and rules of the game
-- [ ] A production Readme
+- [ ] A production ReadME
 
 ### Wireframes
 
@@ -28,7 +28,7 @@ This app will consist of a single screen with the game board, game controls, and
 This project will be implemented with the following technologies:
 
 - Vanilla JavaScript and `jquery` for structure and game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
+- `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle
 
 In addition to the webpack entry file, there will be one script involved in this project:
@@ -37,7 +37,7 @@ In addition to the webpack entry file, there will be one script involved in this
 
 ### Implementation Timeline
 
-**Day 1**: Setup Node modules, webpack and `Easel.js`.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and start on the script above.  Learn the basics of `Easel.js`.  
+**Day 1**: Setup Node modules, webpack.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and start on the script above.  Learn the basics of `Easel.js`.  
 
 **Day 2**: Dedicate this day to learning the `Easel.js` API.  Build out the `Player` object to connect to the `Board` object.
 

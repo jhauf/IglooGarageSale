@@ -3,4 +3,28 @@ canvas {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
+  border: 2px solid gray;
  }
+
+#canvas-container {
+  width: 100%;
+  text-align:center;
+}
+
+#Splash {
+  width: 100%;
+  text-align:center;
+}
+
+#myCanvas {
+  display: none;
+   z-index: 1;
+}
+
+#Stop {
+  z-index: 2;
+  position: absolute;
+  top: 640px;
+  left: 950px;
+  display: none;
+}
