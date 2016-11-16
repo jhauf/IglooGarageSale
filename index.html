@@ -1,3 +1,9 @@
+<!-- <div id="instructions-container">
+<div id="InstructionsPage">
+<img src="instructions.gif"/>
+<input id="Start" type="button" value="Start"/>
+</div>
+</div> -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,9 +14,12 @@
 
   </head>
   <body>
+    <div id="splash-container">
     <div id="Splash">
-      <h1>Igloo Garage Sale</h1>
+      <img src="thegame.png"/>
       <input id="Start" type="button" value="Start"/>
+      <input id="Instructions" type="button" value="Instructions"/>
+    </div>
     </div>
     <div id="canvas-container">
       <canvas id="myCanvas" width="700" height="750"></canvas>
@@ -19,9 +28,14 @@
     <script>
        $("#Start").click(function () {
            $("#Splash").hide();
+           $("#InstructionsPage").hide();
            $("#myCanvas").show();
            $("#Stop").show();
        });
+       $("#Instructions").click(function() {
+         $("Splash").hide();
+         $("InstructionsPage").show();
+       })
     </script>
 
     <script type="application/javascript" src="lib/bundle.js"></script>

@@ -3,18 +3,64 @@ canvas {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
-  border: 2px solid gray;
  }
+
+html {
+  background-color: black;
+}
+
 
 #canvas-container {
   width: 100%;
   text-align:center;
 }
 
+#splash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #Splash {
   width: 100%;
   text-align:center;
+  color: black;
+  border: 1px solid white;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  background: white;
+  top: 180px;
 }
+
+#Start {
+  position: absolute;
+  top: 300px;
+  left: 380px;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 2.5px #888888;
+  background-color: #63c6ee;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+}
+
+#Instructions {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 2.5px #888888;
+  background-color: #ef4d3b;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+}
+
 
 #myCanvas {
   display: none;
@@ -22,9 +68,20 @@ canvas {
 }
 
 #Stop {
-  z-index: 2;
   position: absolute;
-  top: 10px;
-  left: 1080px;
+  top: 0px;
+  left: 1055px;
+  font-family: sans-serif;
+  background-color: red;
+  border: none;
   display: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+}
+
+
+input, button:hover {
+  cursor: pointer;
 }
