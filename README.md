@@ -9,7 +9,7 @@ Igloo Garage Sale is based on the classic Neopets game, Igloo Garage Sale.  It i
 
 With Igloo Garage Sale, users will be able to:
 
-- [ ] Move their character left, right to catch falling objects and up to jump. They lose if they drop 3 objects.
+- [ ] Move their character left, right to catch falling objects. They lose if they drop 3 objects.
 
 In addition, this project will include:
 
@@ -33,16 +33,16 @@ This project will be implemented with the following technologies:
 
 In addition to the webpack entry file, there will be one script involved in this project:
 
-`igloo.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
+`game.js`: this script will handle the logic for creating and updating the necessary `Canvas` elements and rendering them to the DOM.
 
 ### Implementation Timeline
 
-**Day 1**: Setup Node modules, webpack.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and start on the script above.  Learn the basics of `Easel.js`.  
+**Day 1**: Setup Node modules, webpack.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and start on the script above.  
 
-**Day 2**: Dedicate this day to learning the `Easel.js` API.  Build out the `Player` object to connect to the `Board` object.
+**Day 2**: Dedicate this day to learning the `Easel.js` API.  Build out the `Avatar` object to connect to the `Game` object.
 
 
 **Day 3**: Create the logic for the backend.  Build out functions for dropping the different objects at different speeds and check for misses.  Goals for the day:
 
 
-**Day 4**: Create the controls so the user can interact with the game (strt, stop, reset and pause music).  Style the frontend, making it polished and professional.
+**Day 4**: Create the controls so the user can interact with the game (start, stop, reset and pause music).  Style the frontend, making it polished and professional.

@@ -3,6 +3,7 @@ canvas {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
+  background-color: white;
  }
 
 html {
@@ -21,44 +22,105 @@ html {
   align-items: center;
 }
 
+#instructions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #Splash {
   width: 100%;
   text-align:center;
   color: black;
   border: 1px solid white;
-  width: 700px;
-  height: 400px;
+  width: 800px;
+  height: 480px;
   position: relative;
   background: white;
-  top: 180px;
+  top: 160px;
+}
+
+#InstructionsPage {
+  display: none;
+  width: 100%;
+  text-align:center;
+  color: black;
+  border: 1px solid white;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background: white;
+  top: 160px;
+}
+
+#InstructionsPage img {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 500px;
+  height: 550px;
+}
+
+#InstructionsPage p {
+  position: absolute;
+  top: 190px;
+  left: 140px;
+  width: 300px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+
+#Splash img {
+  width: 800px;
+  height: 450px;
 }
 
 #Start {
   position: absolute;
-  top: 300px;
-  left: 380px;
+  top: 330px;
+  left: 330px;
   font-family: sans-serif;
-  box-shadow: 5px 5px 2.5px #888888;
-  background-color: #63c6ee;
+  box-shadow: 3px 3px 1.5px #888888;
+  background-color: #0174a2;
   border: none;
   padding: 10px 30px;
   border-radius: 6px;
   font-size: 20px;
   color: white;
+  border: 1px solid gray;
+  outline: none;
+
 }
 
-#Instructions {
+#Back {
   position: absolute;
-  top: 300px;
-  left: 200px;
+  top: 525px;
+  left: 395px;
   font-family: sans-serif;
-  box-shadow: 5px 5px 2.5px #888888;
+  background-color: #4ac6c4;
+  border: none;
+  padding: 2px 30px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+
+#InstructionsButton {
+  outline: none;
+  position: absolute;
+  top: 330px;
+  left: 150px;
+  font-family: sans-serif;
+  box-shadow: 3px 3px 1.5px #888888;
   background-color: #ef4d3b;
   border: none;
   padding: 10px 30px;
   border-radius: 6px;
   font-size: 20px;
   color: white;
+  border: 1px solid gray;
 }
 
 
@@ -69,15 +131,15 @@ html {
 
 #Stop {
   position: absolute;
-  top: 0px;
-  left: 1055px;
+  top: 6px;
+  left: 1035px;
   font-family: sans-serif;
-  background-color: red;
+  background-color: #ff5a5a;
   border: none;
   display: none;
-  padding: 5px 15px;
+  padding: 4px 15px;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
 }
 
