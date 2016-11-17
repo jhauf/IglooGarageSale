@@ -1,9 +1,11 @@
 canvas {
   background: url(background2.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 50%;
-  background-color: white;
+  top: 32px;
+  right: 400px;
+  position: absolute;
  }
 
 html {
@@ -14,6 +16,7 @@ html {
 #canvas-container {
   width: 100%;
   text-align:center;
+  position: relative;
 }
 
 #splash-container {
@@ -50,7 +53,7 @@ html {
   height: 600px;
   position: relative;
   background: white;
-  top: 160px;
+  top: 100px;
 }
 
 #InstructionsPage img {
@@ -130,14 +133,31 @@ html {
 }
 
 #Stop {
+  outline: none;
   position: absolute;
-  top: 6px;
-  left: 1035px;
+  top: 1px;
+  left: 1067px;
   font-family: sans-serif;
-  background-color: #ff5a5a;
+  background-color: #9114d3;
   border: none;
   display: none;
-  padding: 4px 15px;
+  padding: 3px 15px;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+}
+
+#Pause {
+  outline: none;
+  position: absolute;
+  display: none;
+  top: 1px;
+  left: 910px;
+  width: 150px;
+  font-family: sans-serif;
+  background-color: #e56b4c;
+  border: none;
+  padding: 3px 15px;
   border-radius: 3px;
   font-size: 18px;
   color: white;

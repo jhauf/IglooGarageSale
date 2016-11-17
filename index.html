@@ -21,7 +21,7 @@
         <p> Mika and Carassa are in a rush to move out their old stuff.
           Catch the items as they fall but watch out for bombs and pianos!
           Also be sure not to let the other items crash to the floor.
-          After five items have broken during one round, the game is over.
+          After 3 items have broken during one round, the game is over.
           Survive each timed round to continue.
 
           Move Mika by using the left and right arrows.
@@ -30,8 +30,9 @@
         </div>
       </div>
     <div id="canvas-container">
-      <canvas id="myCanvas" width="700" height="755"></canvas>
+      <canvas id="myCanvas" width="700" height="750"></canvas>
       <input id="Stop" type="button" value="End Game"/>
+      <input id="Pause" type="button" value="Pause Game"/>
     </div>
     <script>
     $("#Start").click(function () {
@@ -39,6 +40,7 @@
       $("#InstructionsPage").hide();
       $("#myCanvas").show();
       $("#Stop").show();
+      $("#Pause").show();
     });
     $("#InstructionsButton").click(function() {
       $("#InstructionsPage").show();
