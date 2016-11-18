@@ -32,6 +32,15 @@
         </div>
       </div>
 
+      <div id="gameover-container">
+        <div id="GameOverPage">
+          <img src="gameover.png"/>
+          <p> Game Over! </p>
+            <input id="Restart" type="button" value="Play Again?"/>
+          </div>
+        </div>
+        <input id="gameover" type="button" value="Game Over"/>
+
 
     <div id="canvas-container">
       <canvas id="myCanvas" width="700" height="750"></canvas>
@@ -39,9 +48,9 @@
       <input id="Pause" type="button" value="Pause Game"/>
       <input id="PauseMusic" type="button" value="Pause Music"/>
       <div id="levelup-container">
-        <input id="levelup" type="button" value="Level Up"/>
         You leveled up!
       </div>
+        <input id="levelup" type="button" value="Level Up"/>
     </div>
     <script>
     $("#Start").click(function () {
@@ -52,6 +61,13 @@
       $("#PauseMusic").show();
 
     });
+
+    $("#Restart").click(function () {
+      $("#myCanvas").hide();
+      $("#Stop").hide();
+      $("#PauseMusic").hide();
+    });
+
     $("#InstructionsButton").click(function() {
       $("#InstructionsPage").show();
       $("#Splash").hide();
@@ -62,6 +78,8 @@
       $("#Splash").show();
     })
 
+
+
     $("#levelup").click(function() {
         $("#levelup-container").show()
         $("#Pause").click();
@@ -71,6 +89,8 @@
         }, 1000);
 
     });
+
+
 
     </script>
 
