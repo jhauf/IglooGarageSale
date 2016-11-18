@@ -4,7 +4,6 @@ https://jhauf.github.io/IglooGarageSale/
 
 ### Background
 
-
 Igloo Garage Sale is single page, 1-player game based on the classic Neopets Igloo Garage Sale game.  The computer player randomly drops items from above while the player below tries to catch all the items while avoiding the falling pianos.
 
 ### Functionality & MVP  
@@ -20,7 +19,7 @@ In addition, this project will include:
 
 ### Wireframes
 
-This app will consist of a single screen with the game board, game controls, and nav links to my Github page, LinkedIn, and the landing page and instructions page.  Game controls include include Start, Stop and Mute music buttons as well left and right controls.
+This app consists of a single screen with the game board, game controls, and nav links to my Github page, LinkedIn, and the landing page and instructions page.  Game controls include include Start, Stop and Mute music buttons as well left and right controls.
 
 ![wireframes](./igloosale_screen.png)
 
