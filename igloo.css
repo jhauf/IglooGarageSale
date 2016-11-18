@@ -3,8 +3,8 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 50px;
-  left: 300px;
+  top: 0px;
+  left: 450px;
   z-index: 0;
  }
 
