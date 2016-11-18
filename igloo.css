@@ -197,7 +197,7 @@ html {
 #Stop {
   outline: none;
   position: relative;
-  top: 670px;
+  top: 620px;
   right: 349px;
   width: 120px;
   height: 42px;
@@ -223,7 +223,7 @@ html {
     outline: none;
     position: relative;
     display: none;
-    top: 620px;
+    top: 570px;
     right: 470px;
     width: 120px;
     height: 42px;
