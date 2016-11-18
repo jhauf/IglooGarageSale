@@ -1,24 +1,26 @@
 ## Igloo Garage Sale
 
+https://jhauf.github.io/IglooGarageSale/
+
 ### Background
 
 
-Igloo Garage Sale is based on the classic Neopets game, Igloo Garage Sale.  It is a 1-player game in which the computer drops items down from the garage above while the player below tries to catch all the items while avoiding the falling pianos.
+Igloo Garage Sale is based on the classic Neopets game, Igloo Garage Sale.  It is a 1-player game in which the computer player randomly drops items from above while the player below tries to catch all the items while avoiding the falling pianos.
 
 ### Functionality & MVP  
 
 With Igloo Garage Sale, users will be able to:
 
-- [ ] Move their character left, right to catch falling objects. They lose if they drop 3 objects.
+- [ ] Move their character left and right to catch falling objects. They lose if they drop 3 objects.
 
 In addition, this project will include:
 
-- [ ] An About modal describing the background and rules of the game
-- [ ] A production ReadME
+- [ ] An Instructions landing describing the background and rules of the game
+- [ ] A production README
 
 ### Wireframes
 
-This app will consist of a single screen with the game board, game controls, and nav links to my Github page, LinkedIn, and the About modal.  Game controls will include Start, Stop, Reset and Mute music buttons as well left, right and up.
+This app will consist of a single screen with the game board, game controls, and nav links to my Github page, LinkedIn, and the landing page and instructions page.  Game controls include include Start, Stop and Mute music buttons as well left and right controls.
 
 ![wireframes](./igloosale_screen.png)
 
@@ -35,14 +37,6 @@ In addition to the webpack entry file, there will be one script involved in this
 
 `game.js`: this script will handle the logic for creating and updating the necessary `Canvas` elements and rendering them to the DOM.
 
-### Implementation Timeline
+### Implementation Details
 
 **Day 1**: Setup Node modules, webpack.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and start on the script above.  
-
-**Day 2**: Dedicate this day to learning the `Easel.js` API.  Build out the `Avatar` object to connect to the `Game` object.
-
-
-**Day 3**: Create the logic for the backend.  Build out functions for dropping the different objects at different speeds and check for misses.  Goals for the day:
-
-
-**Day 4**: Create the controls so the user can interact with the game (start, stop, reset and pause music).  Style the frontend, making it polished and professional.
