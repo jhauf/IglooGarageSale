@@ -5,6 +5,7 @@ canvas {
   position: absolute;
   top: 0px;
   z-index: 0;
+  height: 100vh;
  }
 
 html {
@@ -196,8 +197,8 @@ html {
 #Stop {
   outline: none;
   position: relative;
-  top: 700px;
-  right: 355px;
+  top: 670px;
+  right: 349px;
   width: 120px;
   height: 42px;
   font-family: "Bangers", sans-serif;
@@ -222,8 +223,8 @@ html {
     outline: none;
     position: relative;
     display: none;
-    top: 650px;
-    right: 475px;
+    top: 620px;
+    right: 470px;
     width: 120px;
     height: 42px;
     font-family: "Bangers",sans-serif;
