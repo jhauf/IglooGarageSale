@@ -35,6 +35,7 @@ html {
 }
 
 #levelup-container {
+  display: none;
   width: 180px;
   height: 30px;
   background-color: #0d9a92;
@@ -47,7 +48,7 @@ html {
   font-size: 28px;
   box-shadow: 5px 5px 3px #888888;
   position: absolute;
-  left: 550px;
+  left: 535px;
   top: 250px;
   z-index: 1
 }
