@@ -6,7 +6,8 @@ canvas {
   top: 0px;
   z-index: 0;
   height: 100vh;
-  width: 50vw;
+  max-width: 750px;
+  min-width: 650px;
  }
 
 html {
@@ -37,6 +38,7 @@ html {
 }
 
 #levelup-container {
+  display: flex;
   display: none;
   width: 180px;
   height: 30px;
@@ -198,8 +200,8 @@ html {
 #Stop {
   outline: none;
   position: relative;
-  top: 620px;
-  right: 349px;
+  top: 600px;
+  right: 400px;
   width: 120px;
   height: 42px;
   font-family: "Bangers", sans-serif;
@@ -224,8 +226,8 @@ html {
     outline: none;
     position: relative;
     display: none;
-    top: 570px;
-    right: 470px;
+    top: 550px;
+    right: 519px;
     width: 120px;
     height: 42px;
     font-family: "Bangers",sans-serif;
