@@ -4,7 +4,7 @@ canvas {
   background-size: cover;
   position: absolute;
   top: 0px;
-  left: 375px;
+  left: 450px;
   z-index: 0;
  }
 
@@ -47,7 +47,7 @@ html {
   font-size: 28px;
   box-shadow: 5px 5px 3px #888888;
   position: absolute;
-  right: 560px;
+  left: 683px;
   top: 250px;
   z-index: 1
 }
@@ -182,7 +182,7 @@ html {
   outline: none;
   position: absolute;
   top: 700px;
-  left: 238px;
+  left: 322px;
   width: 120px;
   height: 50px;
   font-family: "Bangers", sans-serif;
@@ -204,7 +204,7 @@ html {
     position: absolute;
     display: none;
     top: 650px;
-    left: 238px;
+    left: 322px;
     width: 120px;
     height: 45px;
     font-family: "Bangers",sans-serif;
