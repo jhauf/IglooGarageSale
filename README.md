@@ -1,36 +1,44 @@
 ## Igloo Garage Sale
 
-https://jhauf.github.io/IglooGarageSale/
+###[Link to Igloo Garage Sale](https://jhauf.github.io/IglooGarageSale/)
+
 
 ### Background
 
-Igloo Garage Sale is single page, 1-player game based on the classic Neopets Igloo Garage Sale game.  The computer player randomly drops items from above while the player below tries to catch all the items while avoiding the falling pianos.
+Igloo Garage Sale is single page, 1-player game based on the classic Neopets Igloo Garage Sale game.  The computer player randomly drops items from above while the player below tries to catch all the items while avoiding the falling pianos. As the players progress through the levels, the items fall faster and more frequently.
 
-### Functionality & MVP  
+## Features
 
-With Igloo Garage Sale, users will be able to:
+- [ ] Playable version of the classic Neopets game.
 
-- [ ] Move their character left and right to catch falling objects and avoid pianos. They lose if they drop 3 objects.
+- [ ] Game
+  - [ ] Game board designed using Canvas
+  - [ ] Player can control the avatar by moving it left and right
+  - [ ] The computer player drops items from above in random positions
+  - [ ] Points are scored when player catches the items
+  - [ ] Game gets progressively harder each level and 3 speed options
+  - [ ] Game has thematic retro music
+  - [ ] Pressing the mute button mutes the music
+  - [ ] Pressing the end button ends the game
+  - [ ] Game is over if the players drop 3 objects. The player then has the option to   play again
 
-In addition, this project will include:
 
-- [ ] An Instructions landing describing the background and rules of the game
-- [ ] A production README
 
-### Wireframes
 
-This app consists of a single screen with the game board, game controls, and nav links to my Github page, LinkedIn, and the landing page and instructions page.  Game controls include include Start, Stop and Mute music buttons as well left and right controls.
+## Views
 
-![wireframes](./igloosale_screen.png)
+![Igloo Garage Sale Game](./screenshot.png)
+
+
 
 ### Architecture and Technologies
 
-
 This project was implemented with the following technologies:
 
-- Vanilla JavaScript and `jquery` for structure and game logic,
+- `Vanilla JavaScript` and `jQuery` for structure and game logic,
 - `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle
+
 
 In addition to the webpack entry file, there was multiple scripts involved in this project:
 
@@ -41,6 +49,5 @@ In addition to the webpack entry file, there was multiple scripts involved in th
 `computer.js`: this script constructs the `Item` elements
 `avatar.js`: this script constructs the `Item` elements
 
-### Implementation Details
-
-**Day 1**: Setup Node modules, webpack.  Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and start on the script above.  
+### Future Directions
+- Sound effects
