@@ -4,7 +4,7 @@ canvas {
   background-size: cover;
   position: absolute;
   top: 0px;
-  left: 400px;
+  left: 410px;
   z-index: 0;
  }
 
@@ -34,6 +34,25 @@ html {
 }
 
 #levelup-container {
+  display: none;
+  width: 180px;
+  height: 30px;
+  background-color: #0d9a92;
+  opacity: .85;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Bangers", sans-serif;
+  font-size: 28px;
+  box-shadow: 5px 5px 3px #888888;
+  position: absolute;
+  right: 300px;
+  top: 250px;
+  z-index: 1
+}
+
+#gameover-container {
   display: none;
   width: 180px;
   height: 30px;
