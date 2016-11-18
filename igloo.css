@@ -112,7 +112,7 @@ z-index: 1;*/
   font-size: 28px;
   box-shadow: 5px 5px 3px #888888;
   position: relative;
-  top: 50px;
+  top: 200px;
   z-index: 10;
 }
 
@@ -264,7 +264,7 @@ z-index: 1;*/
   outline: none;
   position: relative;
   top: 600px;
-  right: 400px;
+  right: 390px;
   width: 120px;
   height: 42px;
   font-family: "Bangers", sans-serif;
@@ -290,7 +290,7 @@ z-index: 1;*/
     position: relative;
     display: none;
     top: 550px;
-    right: 519px;
+    right: 510px;
     width: 120px;
     height: 42px;
     font-family: "Bangers",sans-serif;
