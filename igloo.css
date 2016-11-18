@@ -3,7 +3,8 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 150px;
+  top: 50px;
+  left: 500px;
   z-index: 0;
  }
 
@@ -13,9 +14,7 @@ html {
 
 
 #canvas-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: relative;
 }
 
 #splash-container {
@@ -38,19 +37,19 @@ html {
   display: none;
   width: 180px;
   height: 30px;
-  position: absolute;
   background-color: #0d9a92;
   opacity: .85;
   color: white;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  top: 500px;
-  left: 1100px;
-  z-index: 1;
   font-family: sans-serif;
   font-size: 22px;
   box-shadow: 5px 5px 3px #888888;
+  position: absolute;
+  right: 400px;
+  top: 500px;
+  z-index: 1
 }
 
 
@@ -63,7 +62,7 @@ html {
   height: 600px;
   position: relative;
   background: #3698dc;
-  top: 180px;
+  top: 100px;
 }
 
 #InstructionsPage {
@@ -163,8 +162,8 @@ html {
 #Stop {
   outline: none;
   position: absolute;
-  top: 120px;
-  left: 1435px;
+  top: 30px;
+  left: 950px;
   font-family: sans-serif;
   background-color: #9114d3;
   border: none;
@@ -183,8 +182,8 @@ html {
     outline: none;
     position: absolute;
     display: none;
-    top: 120px;
-    left: 1295px;
+    top: 30px;
+    left: 1070px;
     width: 130px;
     font-family: sans-serif;
     background-color: #619fc0;
