@@ -4,7 +4,7 @@ canvas {
   background-size: cover;
   position: absolute;
   top: 0px;
-  left: 345px;
+  left: 348px;
   z-index: 0;
  }
 
@@ -47,7 +47,7 @@ html {
   font-size: 28px;
   box-shadow: 5px 5px 3px #888888;
   position: absolute;
-  right: 550px;
+  right: 560px;
   top: 250px;
   z-index: 1
 }
