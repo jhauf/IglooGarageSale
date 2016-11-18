@@ -58,23 +58,15 @@ html {
 }
 
 #gameover-container {
-  display: none;
-  width: 180px;
-  height: 30px;
-  background-color: #0d9a92;
-  opacity: .85;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  font-family: "Bangers", sans-serif;
-  font-size: 28px;
-  box-shadow: 5px 5px 3px #888888;
-  position: absolute;
-  right: 300px;
-  top: 250px;
-  z-index: 1
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#gameover {
+  display: none;
+}
+
 
 
 #Splash {
@@ -102,7 +94,28 @@ html {
   top: 50px;
 }
 
+#GameOverPage {
+  display: none;
+  width: 100%;
+  text-align:center;
+  color: black;
+  border: 10px solid white;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  background: #9ccee6;
+  top: 50px;
+}
+
 #InstructionsPage img {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 600px;
+  height: 550px;
+}
+
+#GameOverPage img {
   position: absolute;
   top: 30px;
   left: 100px;
@@ -119,6 +132,17 @@ html {
   font-weight: 600;
 }
 
+#GameOverPage p {
+  position: absolute;
+  font-family: "Bangers";
+  top: 230px;
+  text-shadow: 2px 2px #000000;
+  color: #ff5b07;
+  left: 210px;
+  width: 350px;
+  font-size: 40px;
+  font-weight: 600;
+}
 
 #Splash img {
   width: 790px;
@@ -144,6 +168,22 @@ html {
   outline: none;
 }
 
+#Restart {
+  position: absolute;
+  top: 525px;
+  left: 495px;
+  font-family: "Bangers", sans-serif;
+  background-color: #4ac6c4;
+  text-shadow: 2px 2px #000000;
+  border: none;
+  padding: 2px 30px;
+  border-radius: 6px;
+  font-size: 24px;
+  color: white;
+  outline: none;
+}
+
+
 #Start:hover {
   background-color: #2549c1;
 }
@@ -167,6 +207,7 @@ html {
   left: 530px;
   font-family: "Bangers", sans-serif;
   background-color: #4ac6c4;
+  text-shadow: 2px 2px #000000;
   border: none;
   padding: 2px 30px;
   border-radius: 6px;
