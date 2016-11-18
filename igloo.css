@@ -139,9 +139,23 @@ html {
   color: white;
   border: 1px solid gray;
   outline: none;
-
 }
 
+#Start:hover {
+  background-color: #2549c1;
+}
+
+#InstructionsButton:hover {
+  background-color: #d04434;
+}
+
+#Back:hover {
+  background-color: #42aba9;
+}
+
+#PauseMusic:hover {
+  background-color: #691894;
+}
 
 
 #Back {
@@ -195,6 +209,10 @@ html {
   border-radius: 3px;
   font-size: 20px;
   color: white;
+}
+
+#Stop:hover {
+  background-color: #278887;
 }
 
 #Pause {
