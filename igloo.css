@@ -37,24 +37,27 @@ html {
   display: none;
 }
 
+/*display: none;*/
+/*display: flex;
+width: 180px;
+height: 30px;
+background-color: #0d9a92;
+opacity: .86;
+color: white;
+text-align: center;
+padding: 20px;
+border-radius: 10px;
+font-family: "Bangers", sans-serif;
+font-size: 28px;
+box-shadow: 5px 5px 3px #888888;
+position: absolute;
+left: 535px;
+top: 250px;
+z-index: 1;*/
 #levelup-container {
   display: flex;
-  display: none;
-  width: 180px;
-  height: 30px;
-  background-color: #0d9a92;
-  opacity: .86;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  font-family: "Bangers", sans-serif;
-  font-size: 28px;
-  box-shadow: 5px 5px 3px #888888;
-  position: absolute;
-  left: 535px;
-  top: 250px;
-  z-index: 1
+  justify-content: center;
+  align-items: center;
 }
 
 #gameover-container {
@@ -92,6 +95,25 @@ html {
   position: relative;
   background: #9ccee6;
   top: 50px;
+}
+
+#LevelUpPage {
+  display: none;
+  width: 180px;
+  height: 30px;
+  text-align:center;
+  background-color: #0d9a92;
+  opacity: .85;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Bangers", sans-serif;
+  font-size: 28px;
+  box-shadow: 5px 5px 3px #888888;
+  position: relative;
+  top: 50px;
+  z-index: 10;
 }
 
 #GameOverPage {
