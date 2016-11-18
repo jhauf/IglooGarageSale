@@ -5,7 +5,6 @@
     <title>Igloo Garage Sale</title>
     <link rel="stylesheet" type="text/css" href="igloo.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/a255fa3ebc.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
   </head>
   <body>
@@ -43,14 +42,17 @@
 
 
     <div id="canvas-container">
-      <canvas id="myCanvas" width="700" height="750"></canvas>
+      <canvas id="myCanvas" width="700" height="750">
+      </canvas>
       <input id="Stop" type="button" value="End Game"/>
       <input id="Pause" type="button" value="Pause Game"/>
       <input id="PauseMusic" type="button" value="Pause Music"/>
-      <div id="levelup-container">
+    </div>
+    <div id="levelup-container">
+      <div id="LevelUpPage">
         You leveled up!
-      </div>
         <input id="levelup" type="button" value="Level Up"/>
+      </div>
     </div>
     <script>
     $("#Start").click(function () {
@@ -81,10 +83,10 @@
 
 
     $("#levelup").click(function() {
-        $("#levelup-container").show()
+        $("#LevelUpPage").show()
         $("#Pause").click();
         setTimeout(function() {
-          $("#levelup-container").hide();
+          $("#LevelUpPage").hide();
           $("#Pause").click();
         }, 1000);
 
