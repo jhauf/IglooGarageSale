@@ -47,8 +47,8 @@ html {
   font-size: 28px;
   box-shadow: 5px 5px 3px #888888;
   position: absolute;
-  right: 200px;
-  top: 400px;
+  right: 50px;
+  top: 300px;
   z-index: 1
 }
 
@@ -162,15 +162,17 @@ html {
 #Stop {
   outline: none;
   position: absolute;
-  top: 30px;
-  left: 950px;
+  top: 700px;
+  left: 268px;
+  width: 120px;
+  height: 50px;
   font-family: "Bangers", sans-serif;
   background-color: #9114d3;
   border: none;
   display: none;
   padding: 3px 15px;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 
@@ -182,15 +184,16 @@ html {
     outline: none;
     position: absolute;
     display: none;
-    top: 30px;
-    left: 1070px;
-    width: 130px;
+    top: 650px;
+    left: 268px;
+    width: 120px;
+    height: 45px;
     font-family: "Bangers",sans-serif;
     background-color: #619fc0;
     border: none;
     padding: 3px 15px;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
   }
 
