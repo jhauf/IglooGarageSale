@@ -46,5 +46,6 @@ In addition to the `Webpack` entry file, there was multiple scripts involved in 
 `avatar.js`: this script constructs the `Item` elements
 
 ### Future Directions
+
 - I would like to add sound effects to the game in the future
-- I would also like to leave the animate broken items on the floor if they fall
+- I would also like to animate the items breaking on the floor
