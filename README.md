@@ -27,7 +27,7 @@ Igloo Garage Sale is single page, 1-player game based on the classic Neopets Igl
 
 ## Views
 
-![Igloo Garage Sale Game](./screenshot.png)
+![Igloo Garage Sale Game](assets/screenshot.png)
 
 
 
@@ -37,17 +37,18 @@ This project was implemented with the following technologies:
 
 - `Vanilla JavaScript` and `jQuery` for structure and game logic,
 - `HTML5 Canvas` for DOM manipulation and rendering,
-- Webpack to bundle
+- `Webpack` to bundle
 
 
-In addition to the webpack entry file, there was multiple scripts involved in this project:
+In addition to the `Webpack` entry file, there was multiple scripts involved in this project:
 
 `game.js`: this script handles the logic for creating and updating the necessary `Canvas` elements and rendering them to the DOM.
-`main.js`: this script handles the event listeners and logic for starting and stoping the game as well as the music
+`main.js`: this script handles the event listeners and logic for starting and stopping the game and music
 `piano.js`: this script constructs the `Piano` elements
 `item.js`: this script constructs the `Item` elements
 `computer.js`: this script constructs the `Item` elements
 `avatar.js`: this script constructs the `Item` elements
 
 ### Future Directions
-- Sound effects
+- I would like to add sound effects to the game in the future
+- I would also like to leave the animate broken items on the floor if they fall
