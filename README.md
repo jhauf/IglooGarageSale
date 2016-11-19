@@ -8,10 +8,6 @@
 Igloo Garage Sale is single page, 1-player game based on the classic Neopets Igloo Garage Sale game.  The computer player randomly drops items from above while the player below tries to catch all the items while avoiding the falling pianos. As the players progress through the levels, the items fall faster and more frequently.
 
 ## Features
-
-- [ ] Playable version of the classic Neopets game.
-
-- [ ] Game
   - [ ] Game board designed using Canvas
   - [ ] Player can control the avatar by moving it left and right
   - [ ] The computer player drops items from above in random positions
