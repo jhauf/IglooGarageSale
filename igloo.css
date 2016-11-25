@@ -12,6 +12,7 @@ canvas {
 
 html {
   background-color: black;
+  height: 100vh;
 }
 
 
@@ -78,7 +79,7 @@ z-index: 1;*/
   color: black;
   border: 10px solid white;
   width: 800px;
-  height: 600px;
+  height: 500px;
   position: relative;
   background: #3698dc;
   top: 50px;
@@ -91,7 +92,7 @@ z-index: 1;*/
   color: black;
   border: 10px solid white;
   width: 800px;
-  height: 600px;
+  height: 500px;
   position: relative;
   background: #9ccee6;
   top: 50px;
@@ -131,10 +132,10 @@ z-index: 1;*/
 
 #InstructionsPage img {
   position: absolute;
-  top: 30px;
-  left: 100px;
-  width: 600px;
-  height: 550px;
+  top: 10px;
+  left: 130px;
+  width: 550px;
+  height: 480px;
 }
 
 #GameOverPage img {
@@ -147,7 +148,7 @@ z-index: 1;*/
 
 #InstructionsPage p {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 210px;
   width: 350px;
   font-size: 19px;
@@ -166,11 +167,23 @@ z-index: 1;*/
   font-weight: 600;
 }
 
+#GameOverPage div {
+  position: absolute;
+  font-family: "Bangers";
+  top: 335px;
+  text-shadow: 2px 2px #000000;
+  color: white;
+  left: 210px;
+  width: 350px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 #Splash img {
   width: 790px;
   height: 470px;
   position: absolute;
-  top: 50px;
+  top: 10px;
   left: 0px;
 }
 
@@ -206,6 +219,8 @@ z-index: 1;*/
 }
 
 
+
+
 #Start:hover {
   background-color: #2549c1;
 }
@@ -225,8 +240,8 @@ z-index: 1;*/
 
 #Back {
   position: absolute;
-  top: 525px;
-  left: 530px;
+  top: 440px;
+  left: 515px;
   font-family: "Bangers", sans-serif;
   background-color: #4ac6c4;
   text-shadow: 2px 2px #000000;
@@ -263,8 +278,8 @@ z-index: 1;*/
 #Stop {
   outline: none;
   position: relative;
-  top: 600px;
-  right: 390px;
+  top: 580px;
+  right: 380px;
   width: 120px;
   height: 42px;
   font-family: "Bangers", sans-serif;
@@ -289,8 +304,8 @@ z-index: 1;*/
     outline: none;
     position: relative;
     display: none;
-    top: 550px;
-    right: 510px;
+    top: 525px;
+    right: 500px;
     width: 120px;
     height: 42px;
     font-family: "Bangers",sans-serif;
