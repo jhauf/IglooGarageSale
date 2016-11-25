@@ -279,8 +279,8 @@ z-index: 1;*/
   outline: none;
   position: relative;
   top: 580px;
-  right: 380px;
-  width: 120px;
+  right: 370px;
+  width: 130px;
   height: 42px;
   font-family: "Bangers", sans-serif;
   background-color: #32aaa9;
@@ -306,7 +306,7 @@ z-index: 1;*/
     display: none;
     top: 525px;
     right: 500px;
-    width: 120px;
+    width: 130px;
     height: 42px;
     font-family: "Bangers",sans-serif;
     background-color: #9114d3;
