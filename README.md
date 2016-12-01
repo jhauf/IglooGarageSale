@@ -2,9 +2,6 @@
 
 ###[Link to Igloo Garage Sale](https://jhauf.github.io/IglooGarageSale/)
 
-
-### Background
-
 ![Igloo Garage Sale Game](assets/screenshot.png)
 
 Igloo Garage Sale is single page, 1-player game based on the classic Neopets Igloo Garage Sale game.  The computer player randomly drops items from above while the player below tries to catch all the items while avoiding the falling pianos. As the players progress through the levels, the items fall faster and more frequently.
